@@ -10,7 +10,7 @@ facts = [
     "📌 Akshaya Patra covers 16,800+ schools across 12 states & 2 Union Territories and has 52 state-of-the-art kitchens under its belt",
     "📌 The Akshaya Patra Foundation operates in 55 kitchens across 13 States & 1 Union Territory of India",
     "📌 On February 19th, 2019, Akshaya Patra's Mid-day Meal Scheme became the world’s first NGO-run school meal programme to serve 3 billion cumulative meals.",
-    "📌 All food is prepared hygienically in kitchens that ISO 22000:2005 certified.",
+    "📌 All food is prepared hygienically in kitchens that have ISO 22000:2005 certification.",
     "📌 As a part of MID DAY MEAL programme any individual or organisation can sponsor upto 5000 government school children at the cost of approximately Rs. 1100/- per child per year. ",
     "📌 The foundation aims to make every part of production including the kitchens that feed millions of people as green and sustainable as possible.",
     "📌 Akshaya Patra has decentralized kitchens set up in Baran, Rajasthan and Nayagarh, Odisha reaching out to 161 schools and 319 schools respectively",
@@ -31,6 +31,9 @@ facts = [
     "📌 In the aftermath of the Nepal earthquake in April 2015, a relief kitchen was set up in collaboration with Tata Trusts and Sipradian Sahayata Sanstha (SSS) in Bhaktapur, Nepal. Akshaya Patra served approximately 1.4 million meals over 88 days.",
     "📌 Akshaya Patra has already served over 18.72Cr Covid-19 Relief meals",
     "📌 Looking out of a window, one day in Mayapur, a village near Calcutta, His Divine Grace A. C. Bhaktivedanta Swami Prabhupada saw a group of children fighting with stray dogs over scraps of food. From this simple, yet heart-breaking incident was born a determination that no child within a radius of ten miles from our centre should go hungry.",
+    "📌 Looking out of a window, one day in Mayapur, a village near Calcutta, His Divine Grace A. C. Bhaktivedanta Swami Prabhupada saw a group of children fighting with stray dogs over scraps of food. From this simple, yet heart-breaking incident was born a determination that no child within a radius of ten miles from our centre should go hungry.",
+    "📌 Akshaya Patra is focused on eliminating classroom hunger and attracting more children (enrolment) to schools and ensure to keep them in school (reduce dropout rate) by feeding a filling, nutritious mid-day meal, every school day. This is in partnership with the Government of India and all the various State Governments. ",
+    "📌 The Akshaya Patra Foundation is a not-for-profit organisation headquartered in Bengaluru, India. ",
 ]
 
 
