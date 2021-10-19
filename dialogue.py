@@ -34,6 +34,8 @@ facts = [
     "📌 Looking out of a window, one day in Mayapur, a village near Calcutta, His Divine Grace A. C. Bhaktivedanta Swami Prabhupada saw a group of children fighting with stray dogs over scraps of food. From this simple, yet heart-breaking incident was born a determination that no child within a radius of ten miles from our centre should go hungry.",
     "📌 Akshaya Patra is focused on eliminating classroom hunger and attracting more children (enrolment) to schools and ensure to keep them in school (reduce dropout rate) by feeding a filling, nutritious mid-day meal, every school day. This is in partnership with the Government of India and all the various State Governments. ",
     "📌 The Akshaya Patra Foundation is a not-for-profit organisation headquartered in Bengaluru, India. ",
+    "📌  Akshaya Patra kitchens are technology-driven, which ensures the entire cooking process is untouched by human hand. These centralized, automated kitchens can cook close to 6,000 kg of rice, 4.5-5 tonne of vegetables and 6,000 litres of sambar, in under six hours. ",
+    "📌  Akshaya Patra has a strategic approach towards achieving the UN Sustainable Development Goals (SDGs) by directly contributing to SDG 2 – Zero Hunger, SDG 4 – Quality Education, and SDG 5 – Gender Equality through the Mid-Day Meal (MDM) Programme.",
 ]
 
 
