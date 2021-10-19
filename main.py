@@ -5,7 +5,7 @@ import dialogue as dialogue
 import pandas_datareader as web
 
 
-API_KEY = "2052420657:AAHLqVzRPvBca74olM_7QjL6H8GQbljq3XY"
+API_KEY = "1918094150:AAHk0F7P77RvbQhddHONLgEcPOWIxGAd_CQ"
 
 
 def start(update, context):
@@ -21,11 +21,12 @@ def help(update, context):
     """
     update.message.reply_text(
         """Check out the commands: 
-         /start - Start the bot 
-         /help - Help function
-         /content - Get the content of the website
-         /contact - Get the contact information
-         /facts - Get facts 
+        
+✅ /start - Start the bot 
+✅ /help - Help function
+✅ /content - Get the content of the website
+✅ /contact - Get the contact information
+✅ /facts - Get facts 
          """
     )
 
