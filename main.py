@@ -24,25 +24,28 @@ def help(update, context):
     update.message.reply_text(
         """Check out the commands: 
 
-✅ /start - Start the bot 
-✅ /stop - Stop the bot 
-✅ /help - Help function
-✅ /content - Get the content of the website
-✅ /contact - Get the contact information
-✅ /facts - Get facts k
-✅ /verifiedlinks - Get verified links 
+✅ /start - Start the bot .
+✅ /stop - Stop the bot. 
+✅ /help - Help function.
+✅ /donate - Get the content of the website.
+✅ /contact - Get the contact information.
+✅ /facts - Get facts about Akshaya Patra Foundation.
+✅ /verifiedlinks - Get verified links.
+✅ /OngoingCampaigns - Donate / Participate in campaigns.
          """
     )
 
 
-def content(update, context):
+def donate(update, context):
     """
-    Get the content of the website
+    Get the donation link of the website
     """
     update.message.reply_text(
-        """The content of the website is:
-         <insert website>
-         """
+        """
+        <a href="https://www.akshayapatra.org/onlinedonations">Donate to Akshaya Patra Foundation</a>
+         
+         """,
+        parse_mode=ParseMode.HTML,
     )
 
 
@@ -127,6 +130,34 @@ def verifiedlinks(update, context):
     )
 
 
+def events(update, context):
+    """
+    Get the events
+    """
+    update.message.reply_text(
+        """
+
+<a href="https://www.outlookindia.com/website/story/poshan-news-world-food-day-heres-what-the-akshaya-patra-foundation-aims-for/397800/">📅 : Outlook India</a>
+
+        """,
+        parse_mode=ParseMode.HTML,
+    )
+
+
+def OngoingCampaigns(update, context):
+    """
+    Get the ongoing Campaigns
+    """
+    update.message.reply_text(
+        """
+
+        <strong>API Integration to be done with the techincal team of TAPF.</strong>
+
+        """,
+        parse_mode=ParseMode.HTML,
+    )
+
+
 def stop(bot, update):
     threading.Thread(target=shutdown).start()
 
@@ -148,10 +179,11 @@ def main():
     disp.add_handler(CommandHandler("start", start))  # /start
     disp.add_handler(CommandHandler("stop", stop))  # /stop
     disp.add_handler(CommandHandler("help", help))  # /help
-    disp.add_handler(CommandHandler("content", content))  # /content
+    disp.add_handler(CommandHandler("donate", donate))  # /content
     disp.add_handler(CommandHandler("contact", contact))  # /contact
     disp.add_handler(CommandHandler("facts", facts))  # /facts
     disp.add_handler(CommandHandler("events", events))  # /events
+    disp.add_handler(CommandHandler("OngoingCampaigns", OngoingCampaigns))  # /events
     disp.add_handler(CommandHandler("verifiedlinks", verifiedlinks))  # /verified-links
     disp.add_handler(MessageHandler(Filters.text, handle_message))  # /message
 
